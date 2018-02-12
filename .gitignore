@@ -1,1 +1,4 @@
 node_modules/
+.vs_code/
+package-lock.json
+codealike.json
