@@ -1,0 +1,63 @@
+.contact-title {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1em;
+    letter-spacing: 3px;
+}
+
+
+.contact {
+    background: #b82228; /* Old browsers */
+    background: -moz-linear-gradient(top, #b82228 0%, #c2232b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b82228 0%,#c2232b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b82228 0%,#c2232b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7252c', endColorstr='#c2232b',GradientType=0 ); /* IE6-9 */
+}
+
+/*@media screen and (max-width: 768px) {
+    footer .contact-title {
+        margin-bottom: 1em;
+        margin-top: 2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer .container {
+        position: absolute; top: 50%; transform: translate(-50%, -50%); left: 50%; max-height: 100%;
+        }    
+}
+
+@media screen and (min-width: 768px) {
+    footer .responsive-img {
+        bottom: 0%; max-height: 100%;
+        margin-top: 1em;
+        }    
+}
+
+@media screen and (max-width: 768px) {
+    footer .mobile-img {
+        position: absolute; bottom: 0%; max-height: 100%;
+        margin-top: 1em;
+    } 
+}
+
+@media screen and (max-width: 575px) {
+    footer .mobile-img {
+        min-height: 100%;
+    } 
+}*/
+
+
+.wpcf7-text, .wpcf7-textarea, .wpcf7-submit, a.envira-pagination-load-more {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.wpcf7-submit {
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #000000;
+}
