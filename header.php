@@ -37,12 +37,6 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="<?php bloginfo('description'); ?>">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <?php wp_head(); ?>
 </head>
@@ -53,19 +47,5 @@
 <![endif]-->
 
 <header id="header" role="banner">
-<img class="w-100 mb-5" src="<?php echo get_template_directory_uri(); ?>/images/novazone-header.png" alt="<?php bloginfo('name'); ?>">
-  <div class="wrap hpad clearfix">
-
-    <a class="logo" href="<?php bloginfo('url'); ?>">
-      
-    </a>
-
-    <span class="nav-toggle" data-direction="down">
-        <i class="icon ion-navicon"></i>
-    </span>
-
-    <nav id="nav">
-    </nav>
-
-  </div>
+    <img class="w-100 mb-5" src="<?php echo get_template_directory_uri(); ?>/images/novazone-header.png" alt="<?php bloginfo('name'); ?>">
 </header><!--/#header-->
