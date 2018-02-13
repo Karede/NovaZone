@@ -30,3 +30,11 @@ a.envira-pagination-load-more {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
 }
+
+span.wpcf7-not-valid-tip {
+    color: #edc8c8;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    border: 2px solid #c7252c;
+    background-color: #edc8c8;
+}
