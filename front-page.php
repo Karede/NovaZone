@@ -4,7 +4,7 @@
     <div class="row mb-3">
         <div class="col-sm-6 mb-3">
             <div class="row">
-                <div class="col-md-2 hidden-sm-down">
+                <div class="col-md-2 d-lg-block d-none">
                     <img class="carats h-100" src="<?php echo get_template_directory_uri(); ?>/images/large-left-carat.png" alt="<?php bloginfo('name'); ?>">
                 </div><!--/.col-sm-2-->
                 <div class="col-md-8 slider-quote">                      
@@ -14,7 +14,7 @@
                         the_content();
                     endwhile; ?>
                 </div><!--/.col-sm-8-->
-                <div class="col-md-2 hidden-sm-down">
+                <div class="col-md-2 d-lg-block d-none">
                     <img class="carats h-100" src="<?php echo get_template_directory_uri(); ?>/images/large-right-carat.png" alt="<?php bloginfo('name'); ?>">
                 </div><!--/.col-sm-2-->
             </div><!--/.row-->
