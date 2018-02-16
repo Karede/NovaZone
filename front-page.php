@@ -4,17 +4,17 @@
     <div class="row mb-3">
         <div class="col-sm-6 mb-3">
             <div class="row">
-                <div class="col-md-2 d-lg-block d-none">
+                <div class="col-md-2 d-none d-lg-block">
                     <img class="carats h-100" src="<?php echo get_template_directory_uri(); ?>/images/large-left-carat.png" alt="<?php bloginfo('name'); ?>">
                 </div><!--/.col-sm-2-->
-                <div class="col-md-8 slider-quote">                      
+                <div class="col-lg-8 slider-quote">                      
                     <?php $args = array( 'post_type' => 'slider-quote', 'posts_per_page' <= -1 );
                     $loop = new WP_Query( $args );
                     while ( $loop->have_posts() ) : $loop->the_post();
                         the_content();
                     endwhile; ?>
                 </div><!--/.col-sm-8-->
-                <div class="col-md-2 d-lg-block d-none">
+                <div class="col-md-2 d-none d-lg-block">
                     <img class="carats h-100" src="<?php echo get_template_directory_uri(); ?>/images/large-right-carat.png" alt="<?php bloginfo('name'); ?>">
                 </div><!--/.col-sm-2-->
             </div><!--/.row-->
